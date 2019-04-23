@@ -1,0 +1,77 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: sheath - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP457.tmp" with contents
+[
+/compile_only /nologo /warn:nofileopt /module:"Release/" /object:"Release/" 
+"E:\PIC Simulation\RecGroove\low tri\low TriGr 2-3\mod.f90"
+"E:\PIC Simulation\RecGroove\low tri\low TriGr 2-3\sub_weighting.f90"
+"E:\PIC Simulation\RecGroove\low tri\low TriGr 2-3\sub_triangle_geometry.f90"
+"E:\PIC Simulation\RecGroove\low tri\low TriGr 2-3\sub_smooth.f90"
+"E:\PIC Simulation\RecGroove\low tri\low TriGr 2-3\sub_output.f90"
+"E:\PIC Simulation\RecGroove\low tri\low TriGr 2-3\sub_move.f90"
+"E:\PIC Simulation\RecGroove\low tri\low TriGr 2-3\sub_dadi.f90"
+"E:\PIC Simulation\RecGroove\low tri\low TriGr 2-3\sub_initial.f90"
+"E:\PIC Simulation\RecGroove\low tri\low TriGr 2-3\sub_gradient.f90"
+"E:\PIC Simulation\RecGroove\low tri\low TriGr 2-3\sub_gather.f90"
+"E:\PIC Simulation\RecGroove\low tri\low TriGr 2-3\sub_enter.f90"
+"E:\PIC Simulation\RecGroove\low tri\low TriGr 2-3\sub_DSMC.f90"
+"E:\PIC Simulation\RecGroove\low tri\low TriGr 2-3\sub_dielectric.f90"
+"E:\PIC Simulation\RecGroove\low tri\low TriGr 2-3\sub_diagnostic.f90"
+"E:\PIC Simulation\RecGroove\low tri\low TriGr 2-3\sub_boundary.f90"
+"E:\PIC Simulation\RecGroove\low tri\low TriGr 2-3\main.f90"
+]
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP458.tmp" with contents
+[
+kernel32.lib /nologo /stack:0x5f5e100 /subsystem:console /incremental:no /pdb:"Release/sheath.pdb" /machine:I386 /out:"Release/sheath.exe" 
+".\Release\main.obj"
+".\Release\mod.obj"
+".\Release\sub_boundary.obj"
+".\Release\sub_dadi.obj"
+".\Release\sub_diagnostic.obj"
+".\Release\sub_dielectric.obj"
+".\Release\sub_DSMC.obj"
+".\Release\sub_enter.obj"
+".\Release\sub_gather.obj"
+".\Release\sub_gradient.obj"
+".\Release\sub_initial.obj"
+".\Release\sub_move.obj"
+".\Release\sub_output.obj"
+".\Release\sub_smooth.obj"
+".\Release\sub_triangle_geometry.obj"
+".\Release\sub_weighting.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP458.tmp"
+<h3>Output Window</h3>
+Compiling Fortran...
+E:\PIC Simulation\RecGroove\low tri\low TriGr 2-3\mod.f90
+E:\PIC Simulation\RecGroove\low tri\low TriGr 2-3\sub_weighting.f90
+E:\PIC Simulation\RecGroove\low tri\low TriGr 2-3\sub_triangle_geometry.f90
+E:\PIC Simulation\RecGroove\low tri\low TriGr 2-3\sub_smooth.f90
+E:\PIC Simulation\RecGroove\low tri\low TriGr 2-3\sub_output.f90
+E:\PIC Simulation\RecGroove\low tri\low TriGr 2-3\sub_move.f90
+E:\PIC Simulation\RecGroove\low tri\low TriGr 2-3\sub_dadi.f90
+E:\PIC Simulation\RecGroove\low tri\low TriGr 2-3\sub_initial.f90
+E:\PIC Simulation\RecGroove\low tri\low TriGr 2-3\sub_gradient.f90
+E:\PIC Simulation\RecGroove\low tri\low TriGr 2-3\sub_gather.f90
+E:\PIC Simulation\RecGroove\low tri\low TriGr 2-3\sub_enter.f90
+E:\PIC Simulation\RecGroove\low tri\low TriGr 2-3\sub_DSMC.f90
+E:\PIC Simulation\RecGroove\low tri\low TriGr 2-3\sub_dielectric.f90
+E:\PIC Simulation\RecGroove\low tri\low TriGr 2-3\sub_diagnostic.f90
+E:\PIC Simulation\RecGroove\low tri\low TriGr 2-3\sub_boundary.f90
+E:\PIC Simulation\RecGroove\low tri\low TriGr 2-3\main.f90
+Linking...
+Release/sheath.exe : warning LNK4084: total image size 579158016 exceeds max (268435456); image may not run
+
+
+
+<h3>Results</h3>
+sheath.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

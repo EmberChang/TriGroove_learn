@@ -1,0 +1,137 @@
+# Microsoft Developer Studio Generated Dependency File, included by sheath.mak
+
+.\field.f90 : \
+	".\Release\global.mod"\
+	".\Release\grid_para.mod"\
+	".\Release\ion.mod"\
+	".\Release\mod_dadi.mod"\
+	".\Release\wall.mod"\
+	
+
+.\main.f90 : \
+	".\Release\global.mod"\
+	".\Release\grid_para.mod"\
+	".\Release\mod_dadi.mod"\
+	".\Release\neutral.mod"\
+	".\Release\wall.mod"\
+	
+
+.\sub_boundary.f90 : \
+	".\Release\constant.mod"\
+	".\Release\diag.mod"\
+	".\Release\global.mod"\
+	".\Release\neutral.mod"\
+	".\Release\wall.mod"\
+	
+
+.\sub_dadi.f90 : \
+	".\Release\constant.mod"\
+	".\Release\discharge.mod"\
+	".\Release\global.mod"\
+	".\Release\grid.mod"\
+	".\Release\grid_para.mod"\
+	".\Release\ion.mod"\
+	".\Release\mod_dadi.mod"\
+	".\Release\neutral.mod"\
+	".\Release\wall.mod"\
+	
+
+.\sub_diagnostic.f90 : \
+	".\Release\constant.mod"\
+	".\Release\diag.mod"\
+	".\Release\global.mod"\
+	".\Release\grid.mod"\
+	".\Release\magnetic.mod"\
+	".\Release\mcc_para.mod"\
+	".\Release\wall.mod"\
+	
+
+.\sub_dielectric.f90 : \
+	".\Release\constant.mod"\
+	".\Release\global.mod"\
+	".\Release\neutral.mod"\
+	".\Release\wall.mod"\
+	
+
+.\sub_DSMC.f90 : \
+	".\Release\constant.mod"\
+	".\Release\DSMC.MOD"\
+	".\Release\global.mod"\
+	".\Release\grid.mod"\
+	".\Release\neutral.mod"\
+	
+
+.\sub_enter.f90 : \
+	".\Release\constant.mod"\
+	".\Release\global.mod"\
+	".\Release\wall.mod"\
+	
+
+.\Sub_Gauss_Jordan.f90 : \
+	".\Release\poisson.mod"\
+	
+
+.\sub_gradient.f90 : \
+	".\Release\global.mod"\
+	".\Release\mod_dadi.mod"\
+	
+
+.\sub_initial.f90 : \
+	".\Release\constant.mod"\
+	".\Release\diag.mod"\
+	".\Release\discharge.mod"\
+	".\Release\global.mod"\
+	".\Release\grid.mod"\
+	".\Release\grid_para.mod"\
+	".\Release\ion.mod"\
+	".\Release\magnetic.mod"\
+	".\Release\mcc_para.mod"\
+	".\Release\mod_dadi.mod"\
+	".\Release\neutral.mod"\
+	".\Release\poisson.mod"\
+	".\Release\wall.mod"\
+	
+
+.\sub_move.f90 : \
+	".\Release\constant.mod"\
+	".\Release\diag.mod"\
+	".\Release\global.mod"\
+	".\Release\grid_para.mod"\
+	".\Release\ion.mod"\
+	".\Release\magnetic.mod"\
+	".\Release\mod_dadi.mod"\
+	".\Release\neutral.mod"\
+	".\Release\nwc.mod"\
+	".\Release\wall.mod"\
+	
+
+.\sub_output.f90 : \
+	".\Release\constant.mod"\
+	".\Release\global.mod"\
+	".\Release\grid.mod"\
+	".\Release\grid_para.mod"\
+	".\Release\ion.mod"\
+	".\Release\magnetic.mod"\
+	".\Release\mcc_para.mod"\
+	".\Release\mod_dadi.mod"\
+	".\Release\neutral.mod"\
+	".\Release\wall.mod"\
+	
+
+.\sub_varible_weights.F90 : \
+	".\Release\constant.mod"\
+	".\Release\global.mod"\
+	".\Release\grid.mod"\
+	".\Release\grid_para.mod"\
+	".\Release\magnetic.mod"\
+	".\Release\neutral.mod"\
+	
+
+.\sub_weighting.f90 : \
+	".\Release\constant.mod"\
+	".\Release\global.mod"\
+	".\Release\grid.mod"\
+	".\Release\grid_para.mod"\
+	".\Release\magnetic.mod"\
+	".\Release\neutral.mod"\
+	

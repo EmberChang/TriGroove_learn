@@ -1,0 +1,15 @@
+------ Project Conversion started on 2013/8/12 at 8:20 - Project: sheath ------
+
+Creating configuration context: sheath - Win32 Release...
+
+Warn:nofileopt option not supported - option ignored
+
+Creating configuration context: sheath - Win32 Debug...
+
+Warn:argument_checking option not supported - option ignored
+
+Warn:nofileopt option not supported - option ignored
+
+sheath project conversion succeeded
+
+Project Conversion log was saved at "file://I:\Simulation Data\Ph.D Groove Data\low tri\low TriGr 2-3 done\sheath_log.txt"
